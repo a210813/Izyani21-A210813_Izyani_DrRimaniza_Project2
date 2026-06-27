@@ -104,5 +104,3 @@ app/src/main/java/com/example/a210813_izyani_drrimaniza_lab5/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2.git
-
-## 📂 Project Structure
