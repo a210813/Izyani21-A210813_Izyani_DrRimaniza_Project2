@@ -4,9 +4,10 @@
 **JobQuest**
 
 ## 🎯 SDG Theme
-**SDG 1: No Proverty**
+**SDG 1: No Poverty**
 
-JobQuest helps users find job opportunities and connect with employers, supporting economic growth and decent work. The app provides a platform for job seekers to discover employment opportunities, apply for positions, and communicate with potential employers.
+> "End poverty in all its forms everywhere."  
+> By providing access to employment opportunities, JobQuest helps individuals secure stable income and break the cycle of poverty. The app connects job seekers with employers, making it easier for people to find decent work and improve their livelihoods.
 
 ## 📋 Features
 
@@ -24,7 +25,7 @@ JobQuest helps users find job opportunities and connect with employers, supporti
 - 🎨 **Dark/Light Theme** - Toggle between dark and light mode
 
 ### Technical Features
-- **7+ Screens** - Login, Sign Up, Home, Search, Profile, Details, All Jobs, Applied Jobs, Messages
+- **9 Screens** - Login, Sign Up, Home, Search, Profile, Details, All Jobs, Applied Jobs, Messages
 - **Navigation** - Jetpack Navigation Compose with bottom navigation bar
 - **State Management** - SharedViewModel with StateFlow
 - **API Integration** - Retrofit with Apify API (JobStreet job listings)
@@ -47,64 +48,49 @@ JobQuest helps users find job opportunities and connect with employers, supporti
 
 ## 📸 Screenshots
 
-*(Add screenshots of your app here)*
-
-| Login | Home | Search |
-|-------|------|--------|
-| | | |
-
-| Profile | Applied Jobs | Messages |
-|---------|--------------|----------|
-| | | |
+*(Screenshots will be added soon)*
 
 ## 📂 Project Structure
 app/src/main/java/com/example/a210813_izyani_drrimaniza_lab5/
-│
-├── MainActivity.kt                     # Main entry point
-│
+├── MainActivity.kt # Main entry point
 ├── data/
-│   ├── api/
-│   │   └── ApiClient.kt                # Retrofit API client
-│   │
-│   ├── firebase/
-│   │   └── FirestoreService.kt         # Firebase Firestore services
-│   │
-│   ├── AppDatabase.kt                  # Room Database
-│   ├── AppliedJob.kt                   # Applied job data model
-│   ├── AppliedJobEntity.kt             # Room entity for applied jobs
-│   ├── ChatModels.kt                   # Chat message & session models
-│   ├── Converters.kt                   # Room type converters
-│   ├── JobDao.kt                       # Room DAO for jobs
-│   ├── JobListing.kt                   # Job listing data model
-│   ├── JobRepository.kt                # Repository for job data
-│   ├── UserDao.kt                      # Room DAO for users
-│   ├── UserEntity.kt                   # Room entity for users
-│   ├── UserProfile.kt                  # User profile data model
-│   ├── UserProfileEntity.kt            # Room entity for user profile
-│   └── UserRepository.kt               # Repository for user data
-│
-├── screens/                            # All Compose Screens
-│   ├── AllJobsScreen.kt
-│   ├── AppliedJobsScreen.kt
-│   ├── AppliedPlaceholder.kt
-│   ├── ApplyJobDialog.kt
-│   ├── DetailsScreen.kt
-│   ├── HomeScreen.kt
-│   ├── LoginScreen.kt
-│   ├── MessagesPlaceholder.kt
-│   ├── ProfileScreen.kt
-│   ├── SearchScreen.kt
-│   ├── SharedViewModel.kt              # Shared ViewModel with StateFlow
-│   ├── SharedViewModelFactory.kt
-│   └── SignUpScreen.kt
-│
-├── ui/theme/                           # Theme Configuration
-│   ├── Color.kt
-│   ├── Theme.kt
-│   └── Type.kt
-│
+│ ├── api/
+│ │ └── ApiClient.kt # Retrofit API client
+│ ├── firebase/
+│ │ └── FirestoreService.kt # Firebase Firestore services
+│ ├── AppDatabase.kt # Room Database
+│ ├── AppliedJob.kt # Applied job data model
+│ ├── AppliedJobEntity.kt # Room entity for applied jobs
+│ ├── ChatModels.kt # Chat message and session models
+│ ├── Converters.kt # Room type converters
+│ ├── JobDao.kt # Room DAO for jobs
+│ ├── JobListing.kt # Job listing data model
+│ ├── JobRepository.kt # Repository for job data
+│ ├── UserDao.kt # Room DAO for users
+│ ├── UserEntity.kt # Room entity for users
+│ ├── UserProfile.kt # User profile data model
+│ ├── UserProfileEntity.kt # Room entity for user profile
+│ └── UserRepository.kt # Repository for user data
+├── screens/ # All Compose Screens
+│ ├── AllJobsScreen.kt
+│ ├── AppliedJobsScreen.kt
+│ ├── AppliedPlaceholder.kt
+│ ├── ApplyJobDialog.kt
+│ ├── DetailsScreen.kt
+│ ├── HomeScreen.kt
+│ ├── LoginScreen.kt
+│ ├── MessagesPlaceholder.kt
+│ ├── ProfileScreen.kt
+│ ├── SearchScreen.kt
+│ ├── SharedViewModel.kt # Shared ViewModel with StateFlow
+│ ├── SharedViewModelFactory.kt
+│ └── SignUpScreen.kt
+├── ui/theme/ # Theme Configuration
+│ ├── Color.kt
+│ ├── Theme.kt
+│ └── Type.kt
 └── utils/
-    └── LocationHelper.kt               # GPS/Location helper class
+└── LocationHelper.kt # GPS/Location helper class
 
 ## 🔧 Setup Instructions
 
@@ -117,4 +103,6 @@ app/src/main/java/com/example/a210813_izyani_drrimaniza_lab5/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Izyani21/A210813_Izyani_DrRimaniza_Project2.git
+git clone https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2.git
+
+## 📂 Project Structure
