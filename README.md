@@ -104,3 +104,29 @@ app/src/main/java/com/example/a210813_izyani_drrimaniza_lab5/
 1. **Clone the repository**
 ```bash
 git clone https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2.git
+
+## 📅 Submission Details
+
+| Item | Info |
+|------|------|
+| **Project** | Project 2 |
+| **Due Date** | 14 June 2026 |
+| **SDG** | SDG 1: No Poverty |
+| **GitHub** | [https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2](https://github.com/a210813/a210813_Izyani_DrRimaniza_Project2) |
+| **VSR Video** | *https://youtu.be/V3Hr41Rf6zI* |
+| **e-Portfolio** | [https://a210813.github.io](https://a210813.github.io) |
+
+## 🙏 Acknowledgements
+
+- Dr. Rimaniza for guidance and support
+- Firebase for cloud services
+- Apify for JobStreet API access
+- JetBrains for Kotlin and Android Studio
+
+## 📄 License
+
+This project is for educational purposes as part of the Mobile Programming course (TK2323/TM2213).
+
+---
+
+*Created with ❤️ for Project 2 - Mobile Programming*
