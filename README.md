@@ -4,7 +4,7 @@
 **JobQuest**
 
 ## 🎯 SDG Theme
-**SDG 8: Decent Work and Economic Growth**
+**SDG 1: No Proverty**
 
 JobQuest helps users find job opportunities and connect with employers, supporting economic growth and decent work. The app provides a platform for job seekers to discover employment opportunities, apply for positions, and communicate with potential employers.
 
