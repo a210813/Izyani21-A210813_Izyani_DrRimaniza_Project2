@@ -59,45 +59,52 @@ JobQuest helps users find job opportunities and connect with employers, supporti
 
 ## 📂 Project Structure
 app/src/main/java/com/example/a210813_izyani_drrimaniza_lab5/
-├── MainActivity.kt # Main entry point
+│
+├── MainActivity.kt                     # Main entry point
+│
 ├── data/
-│ ├── api/
-│ │ └── ApiClient.kt # Retrofit API client
-│ ├── firebase/
-│ │ └── FirestoreService.kt # Firebase Firestore services
-│ ├── AppDatabase.kt # Room Database
-│ ├── AppliedJob.kt # Applied job data model
-│ ├── AppliedJobEntity.kt # Room entity for applied jobs
-│ ├── ChatModels.kt # Chat message and session models
-│ ├── Converters.kt # Room type converters
-│ ├── JobDao.kt # Room DAO for jobs
-│ ├── JobListing.kt # Job listing data model
-│ ├── JobRepository.kt # Repository for job data
-│ ├── UserDao.kt # Room DAO for users
-│ ├── UserEntity.kt # Room entity for users
-│ ├── UserProfile.kt # User profile data model
-│ ├── UserProfileEntity.kt # Room entity for user profile
-│ └── UserRepository.kt # Repository for user data
-├── screens/ # All Compose Screens
-│ ├── AllJobsScreen.kt
-│ ├── AppliedJobsScreen.kt
-│ ├── AppliedPlaceholder.kt
-│ ├── ApplyJobDialog.kt
-│ ├── DetailsScreen.kt
-│ ├── HomeScreen.kt
-│ ├── LoginScreen.kt
-│ ├── MessagesPlaceholder.kt
-│ ├── ProfileScreen.kt
-│ ├── SearchScreen.kt
-│ ├── SharedViewModel.kt # Shared ViewModel with StateFlow
-│ ├── SharedViewModelFactory.kt
-│ └── SignUpScreen.kt
-├── ui/theme/ # Theme Configuration
-│ ├── Color.kt
-│ ├── Theme.kt
-│ └── Type.kt
+│   ├── api/
+│   │   └── ApiClient.kt                # Retrofit API client
+│   │
+│   ├── firebase/
+│   │   └── FirestoreService.kt         # Firebase Firestore services
+│   │
+│   ├── AppDatabase.kt                  # Room Database
+│   ├── AppliedJob.kt                   # Applied job data model
+│   ├── AppliedJobEntity.kt             # Room entity for applied jobs
+│   ├── ChatModels.kt                   # Chat message & session models
+│   ├── Converters.kt                   # Room type converters
+│   ├── JobDao.kt                       # Room DAO for jobs
+│   ├── JobListing.kt                   # Job listing data model
+│   ├── JobRepository.kt                # Repository for job data
+│   ├── UserDao.kt                      # Room DAO for users
+│   ├── UserEntity.kt                   # Room entity for users
+│   ├── UserProfile.kt                  # User profile data model
+│   ├── UserProfileEntity.kt            # Room entity for user profile
+│   └── UserRepository.kt               # Repository for user data
+│
+├── screens/                            # All Compose Screens
+│   ├── AllJobsScreen.kt
+│   ├── AppliedJobsScreen.kt
+│   ├── AppliedPlaceholder.kt
+│   ├── ApplyJobDialog.kt
+│   ├── DetailsScreen.kt
+│   ├── HomeScreen.kt
+│   ├── LoginScreen.kt
+│   ├── MessagesPlaceholder.kt
+│   ├── ProfileScreen.kt
+│   ├── SearchScreen.kt
+│   ├── SharedViewModel.kt              # Shared ViewModel with StateFlow
+│   ├── SharedViewModelFactory.kt
+│   └── SignUpScreen.kt
+│
+├── ui/theme/                           # Theme Configuration
+│   ├── Color.kt
+│   ├── Theme.kt
+│   └── Type.kt
+│
 └── utils/
-└── LocationHelper.kt # GPS/Location helper class
+    └── LocationHelper.kt               # GPS/Location helper class
 
 ## 🔧 Setup Instructions
 
